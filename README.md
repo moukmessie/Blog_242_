@@ -2,7 +2,6 @@
 
 [ Personal website] 
 
-Different tecnologies wil be used as progress is made 
 
 made with:
  
