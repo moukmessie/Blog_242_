@@ -1,6 +1,6 @@
 # Blog_PHP_POO
 
-[This personal website blog ] 
+[This personal website] 
 
 Different tecnologies wil be used as progress is made 
 
