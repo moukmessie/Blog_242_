@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="" />
+    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogpoo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <execution />
   </component>
   <component name="Git.Settings">
@@ -15,6 +30,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1614688481" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1614688480" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1pCPjMDZ68WTT53nAs88k8QzpMI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,10 +61,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,7 +77,10 @@
       <option name="presentableId" value="Default" />
       <updated>1614684233335</updated>
       <workItem from="1614684234437" duration="34000" />
-      <workItem from="1614687731497" duration="370000" />
+      <workItem from="1614687731497" duration="972000" />
+      <workItem from="1614709715749" duration="2969000" />
+      <workItem from="1614713235022" duration="748000" />
+      <workItem from="1614714038790" duration="1870000" />
     </task>
     <servers />
   </component>
@@ -55,11 +97,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="9" key="SettingsEditor" timestamp="1614684256871">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1702" y="361" key="#SQL_Dialects" timestamp="1614710813239">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1702" y="361" key="#SQL_Dialects/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710813239" />
+    <state x="1918" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614710787192">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710787191" />
+    <state x="2162" y="123" key="FileChooserDialogImpl" timestamp="1614710098400">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2162" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710098400" />
+    <state x="1883" y="13" key="SettingsEditor" timestamp="1614713992585">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1883" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614713992585" />
     <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614684256871" />
   </component>
 </project>
