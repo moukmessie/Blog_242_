@@ -1,4 +1,4 @@
-# Blog_PHP_POO
+####Blog_PHP_POO
 
 [This personal website blog ] 
 
@@ -12,11 +12,11 @@ made with:
  -  JavaScript
 
 # DATA SOURCE
-
--- phpMyAdmin SQL Dump
--- Version 5.0.3
--- https://www.phpmyadmin.net/
---
--- Host: localhost:3306 via TCP/IP
--- Server version: 10.4.14
--- PHP Version: 7.4.11
+`
+- phpMyAdmin SQL Dump
+- Version 5.0.3
+-  https://www.phpmyadmin.net/
+-
+- Host: localhost:3306 via TCP/IP
+- Server version: 10.4.14
+- PHP Version: 7.4.11`
