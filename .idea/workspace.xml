@@ -13,9 +13,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="first commit">
+    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="Database actualize">
+      <change afterPath="$PROJECT_DIR$/libraries/models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/models/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/models/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogpoo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/blogpoo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/librairies/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/librairies/models/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/librairies/models/Comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/librairies/models/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/librairies/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/utils.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +100,7 @@
       <workItem from="1614709715749" duration="2969000" />
       <workItem from="1614713235022" duration="748000" />
       <workItem from="1614714038790" duration="3436000" />
-      <workItem from="1614895657549" duration="2688000" />
+      <workItem from="1614895657549" duration="3771000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1614715999910</created>
@@ -109,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614721446193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Database actualize">
+      <created>1614898474829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614898474829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Database actualize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database actualize" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1702" y="361" key="#SQL_Dialects" timestamp="1614710813239">
@@ -157,15 +172,16 @@
     </state>
     <state x="1883" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614713992585" />
     <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614897186926" />
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614721464540">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1614898482709">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721464540" />
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614898362245">
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614898482709" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614900303715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721426468" />
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614898362245" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614900303715" />
     <state x="456" y="205" key="com.intellij.sql.injection.SqlTypeBasedInjectionSupport" timestamp="1614896360328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
