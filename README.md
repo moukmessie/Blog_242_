@@ -1,4 +1,4 @@
-# Blog_PHP_POO
+# Blog_PHP_
 
 [ Personal website] 
 
