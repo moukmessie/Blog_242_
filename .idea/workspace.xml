@@ -14,17 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete-article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete-comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librairies/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librairies/models/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librairies/models/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librairies/models/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librairies/utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save-comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogpoo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/blogpoo.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +66,19 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\L2 2020-2021\mes projet perso\Blog\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\L2 2020-2021\mes projet perso\Blog" />
+      <recent name="D:\L2 2020-2021\mes projet perso\Blog\templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +92,8 @@
       <workItem from="1614687731497" duration="972000" />
       <workItem from="1614709715749" duration="2969000" />
       <workItem from="1614713235022" duration="748000" />
-      <workItem from="1614714038790" duration="3316000" />
+      <workItem from="1614714038790" duration="3436000" />
+      <workItem from="1614895657549" duration="2688000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1614715999910</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614715999910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1614721446193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614721446193</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,18 +152,23 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721309589" />
-    <state x="1883" y="13" key="SettingsEditor" timestamp="1614713992585">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="368" y="9" key="SettingsEditor" timestamp="1614897186926">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1883" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614713992585" />
-    <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614684256871" />
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614721376445">
+    <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614897186926" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614721464540">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721376445" />
-    <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614721426468">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721464540" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614898362245">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721426468" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614898362245" />
+    <state x="456" y="205" key="com.intellij.sql.injection.SqlTypeBasedInjectionSupport" timestamp="1614896360328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="456" y="205" key="com.intellij.sql.injection.SqlTypeBasedInjectionSupport/0.0.1366.728@0.0.1366.728" timestamp="1614896360328" />
   </component>
 </project>
