@@ -11,6 +11,6 @@
  * puis afficher l'article ainsi que ses commentaires
  */
 
-require_once ("libraries/controllers/Article.php");
+require_once ('libraries/autoload.php');
 $controller =new \controllers\Article();
 $controller->show();

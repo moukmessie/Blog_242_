@@ -2,27 +2,13 @@
 
 
 namespace controllers;
-require_once ("libraries/models/Comment.php");
-require_once ('libraries/utils.php');
-require_once ('libraries/models/Article.php');
 
-
-class Comment
+class Comment extends Controller
 {
+    protected  $modelName = \models\Comment::class;
 
-    protected  $model;
-
-    /**
-     * Commment constructor.
-     *
-     */
-    public function __construct()
-    {
-        $this->model =  new \models\Comment();
-    }
     public function insert(){
         //insert un commentaire
-
 
         $articleModel = new \models\Article();
 
@@ -59,7 +45,6 @@ class Comment
             die("Votre formulaire a été mal rempli !");
         }
 
-
         $article=$articleModel->find($article_id);
 
 // Si rien n'a été trouvé, on fait une erreur
@@ -75,14 +60,13 @@ class Comment
         /**
          * 3. Redirection vers l'article en question :
          * */
-        redirection('article.php?id=' . $article_id);
+       \Http::redirection('article.php?id=' . $article_id);
 
     }
 
     public function delete()
     {
         //suppression d'un commentaire
-
 
         /**
          * 1. Récupération du paramètre "id" en GET
@@ -92,7 +76,6 @@ class Comment
         }
 
         $id = $_GET['id'];
-
 
         /**
          * 2. Vérification de l'existence du commentaire
@@ -116,8 +99,7 @@ class Comment
         /**
          * 4. Redirection vers l'article concerné
          */
-        redirection("article.php?id=" . $article_id );
-
+      \Http::redirection("article.php?id=" . $article_id );
 
     }
 }

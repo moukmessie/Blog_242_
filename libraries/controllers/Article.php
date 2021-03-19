@@ -3,26 +3,14 @@ namespace controllers;
 
 use models\Comment;
 
-require_once ('libraries/utils.php');
-require_once ('libraries/models/Article.php');
-require_once ('libraries/models/Comment.php');
 
 
 
 
-class Article
+
+class Article extends Controller
 {
-
-    protected $model;
-
-    /**
-     * Article constructor.
-     * @param $model
-     */
-    public function __construct()
-    {
-        $this->model =  new \models\Article();
-    }
+    protected  $modelName = \models\Article::class;
 
 
     public function index(){
@@ -41,7 +29,7 @@ class Article
          */
         $pageTitle = "Accueil";
 
-        render('articles/index',compact('pageTitle','articles'));
+        \Renderer::render('articles/index',compact('pageTitle','articles'));
 
     }
     public function show(){
@@ -84,14 +72,12 @@ class Article
          */
         $pageTitle = $article['title'];
 
-        render('articles/show', compact('pageTitle','article','commentaires','article_id'));
+       \Renderer:: render('articles/show', compact('pageTitle','article','commentaires','article_id'));
 
     }
 
     public function delete(){
         //suppression d'un article
-
-
 
 
         /**
@@ -121,7 +107,7 @@ class Article
         /**
          * 4. Redirection vers la page d'accueil
          */
-        redirection(index.php);
+       \Http::redirection(index.php);
     }
 
 }

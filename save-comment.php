@@ -14,6 +14,6 @@
  *
  * Et enfin on pourra rediriger l'utilisateur vers l'article en question
  */
-require_once ('libraries/controllers/Comment.php');
+require_once ('libraries/autoload.php');
 $controller = new \controllers\Comment();
 $controller->insert();

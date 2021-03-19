@@ -1,6 +1,6 @@
 <?php
 
-require_once ('libraries/database.php');
+require_once('libraries/Database.php');
 require('vendor/autoload.php');
 
 $pdo = getPdo();
