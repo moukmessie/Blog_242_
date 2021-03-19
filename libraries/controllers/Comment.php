@@ -82,10 +82,7 @@ class Comment
     public function delete()
     {
         //suppression d'un commentaire
-        require_once ('libraries/database.php');
-        require_once ('libraries/models/Comment.php');
 
-        $commentModel = new Comment();
 
         /**
          * 1. Récupération du paramètre "id" en GET
@@ -102,7 +99,7 @@ class Comment
          * dans la base de données
          */
 
-        $commentaire=$commentModel->find($id);
+        $commentaire=$this->model->find($id);
         if (!$commentaire) {
             die("Aucun commentaire n'a l'identifiant $id !");
         }
@@ -114,7 +111,7 @@ class Comment
 
         $article_id = $commentaire['article_id'];
 
-        $commentModel->delete($id);
+        $this->model->delete($id);
 
         /**
          * 4. Redirection vers l'article concerné
