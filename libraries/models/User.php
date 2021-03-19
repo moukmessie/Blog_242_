@@ -2,8 +2,7 @@
 namespace models;
 require_once('libraries/models/Model.php');
 
-class Article extends Model
+class User extends Model
 {
-    protected string $table = "articles";
-
+    protected string $table = "Users";
 }

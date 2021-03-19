@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.19100237" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -13,16 +16,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="Database actualize">
-      <change afterPath="$PROJECT_DIR$/libraries/models/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/models/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/models/Model.php" afterDir="false" />
+    <list default="true" id="82aa0bca-a46f-4599-96c0-2c10f3c1c91c" name="Default Changelist" comment="Database and package models actualize">
+      <change afterPath="$PROJECT_DIR$/libraries/controllers/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/controllers/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/arcticles/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/arcticles/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librairies/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librairies/models/Article.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librairies/models/Comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librairies/models/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/librairies/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete-article.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete-article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete-comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete-comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save-comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/save-comment.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -100,7 +111,10 @@
       <workItem from="1614709715749" duration="2969000" />
       <workItem from="1614713235022" duration="748000" />
       <workItem from="1614714038790" duration="3436000" />
-      <workItem from="1614895657549" duration="3771000" />
+      <workItem from="1614895657549" duration="4330000" />
+      <workItem from="1614945485772" duration="155000" />
+      <workItem from="1616173220004" duration="5658000" />
+      <workItem from="1616179146414" duration="9991000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1614715999910</created>
@@ -123,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614898474829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Database and package models actualize">
+      <created>1614900662326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614900662326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +165,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Database actualize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database actualize" />
+    <MESSAGE value="Database and package models actualize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database and package models actualize" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1616173628409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616173628409" />
+    <state x="390" y="7" key="#PHP" timestamp="1616178108317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="7" key="#PHP/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616178108317" />
     <state x="1702" y="361" key="#SQL_Dialects" timestamp="1614710813239">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -155,33 +185,47 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1918" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710787191" />
-    <state x="2162" y="123" key="FileChooserDialogImpl" timestamp="1614710098400">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2162" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710098400" />
-    <state x="2072" y="243" key="NewPhpClassDialog" timestamp="1614721291104">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2072" y="243" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721291104" />
-    <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1614721309589">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721309589" />
-    <state x="368" y="9" key="SettingsEditor" timestamp="1614897186926">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1616191589682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616191589682" />
+    <state x="566" y="86" key="FileChooserDialogImpl" timestamp="1616179237163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="566" y="86" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616179237163" />
+    <state x="2162" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710098400" />
+    <state x="502" y="170" key="NewPhpClassDialog" timestamp="1616191799173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="170" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616191799173" />
+    <state x="2072" y="243" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721291104" />
+    <state x="565" y="310" key="NewPhpFileDialog" timestamp="1616177168057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="565" y="310" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616177168057" />
+    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721309589" />
+    <state x="368" y="9" key="SettingsEditor" timestamp="1616179254805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616179254805" />
     <state x="1883" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614713992585" />
     <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614897186926" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1614898482709">
+    <state x="393" y="168" key="Vcs.Push.Dialog.v2" timestamp="1616190681026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="393" y="168" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616190681026" />
     <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721464540" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614898482709" />
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614900303715">
+    <state x="393" y="168" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614900674126" />
+    <state x="582" y="293" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1616182144562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="582" y="293" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616182144562" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616190666008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1616190666008" />
     <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614721426468" />
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614900303715" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614900463755" />
     <state x="456" y="205" key="com.intellij.sql.injection.SqlTypeBasedInjectionSupport" timestamp="1614896360328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
