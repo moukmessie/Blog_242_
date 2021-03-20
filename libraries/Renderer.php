@@ -11,7 +11,7 @@ class Renderer
    public static function render(string $path, array  $variabbles=[]): void{
         extract($variabbles, EXTR_SKIP);
         ob_start();
-        require ('templates/'.$path.'.php');
+        require ('templates/'. $path .'.php');
         $pageContent = ob_get_clean();
 
         require ('templates/layout.php');

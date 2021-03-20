@@ -42,11 +42,12 @@ abstract class Model
      * @param string|null $order
      * @return array
      */
-    public function findAll(? string $order =""):array{
+    public function findAll($order =""):array{
 
         $sql = "SELECT * FROM {$this->table }";
+
         if($order){
-            $sql .= "ORDER BY" . $order;
+            $sql .= " ORDER BY  $order";
 
         }
 
