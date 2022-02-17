@@ -1,6 +1,6 @@
 # Blog_242_
 
-[ Personal website] 
+<!-- [ Personal website] 
 
 
 made with:
@@ -18,3 +18,4 @@ made with:
 - Host: localhost:3306 via TCP/IP
 - Server version: 10.4.14
 - PHP Version: 7.4.11`
+ -->
